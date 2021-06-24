@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--
+        Новости (news_item) / Мероприятия (events_item) / Галерея (gallery_item)
+        Правила дрифта (rules_item) /Пилоты (pilots_item)
+        ______________________________
+        Online-чат (online_chat_item)
+        ______________________________
+    Социальные сети
+        ВКонтакте (vk_item) / Facebook (facebook_item) / Instagram (inst_item)
+        ______________________________
+        racing.by (racingby_item)
+    -->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news_item"
+            android:icon="@drawable/ic_menu_news"
+            android:title="@string/news_item" />
+        <item
+            android:id="@+id/events_item"
+            android:icon="@drawable/ic_menu_events"
+            android:title="@string/events_item" />
+        <item
+            android:id="@+id/gallery_item"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/gallery_item" />
+        <item
+            android:id="@+id/vlog_item"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/vlog_item" />
+        <item
+            android:id="@+id/rules_item"
+            android:icon="@drawable/ic_menu_rules"
+            android:title="@string/rules_item" />
+        <item
+            android:id="@+id/pilots_item"
+            android:icon="@drawable/ic_menu_pilots"
+            android:title="@string/pilots_item" />
+        <item
+            android:id="@+id/online_chat_item"
+            android:icon="@drawable/ic_menu_chat"
+            android:title="@string/online_chat_item" />
+
+        <item android:title="Социальные сети">
+            <menu>
+                <item
+                    android:id="@+id/vk_item"
+                    android:icon="@mipmap/ic_menu_vk"
+                    android:title="@string/vk_item" />
+                <item
+                    android:id="@+id/facebook_item"
+                    android:icon="@mipmap/ic_menu_facebook"
+                    android:title="@string/facebook_item" />
+                <item
+                    android:id="@+id/inst_item"
+                    android:icon="@mipmap/ic_menu_inst"
+                    android:title="@string/inst_item" />
+            </menu>
+        </item>
+
+        <item android:title="Официальный сайт Racing.by">
+            <menu>
+                <item
+                    android:id="@+id/racingby_item"
+                    android:icon="@mipmap/ic_menu_racingby"
+                    android:title="@string/racingby_item" />
+            </menu>
+        </item>
+    </group>
+</menu>

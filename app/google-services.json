@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "253476195503",
+    "firebase_url": "https://racingby-e8846.firebaseio.com",
+    "project_id": "racingby-e8846",
+    "storage_bucket": "racingby-e8846.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253476195503:android:24e09370786386cd",
+        "android_client_info": {
+          "package_name": "com.example.frolo.racingby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253476195503-kktl7d3gd2kkhct98t1uub576o6bjqq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.frolo.racingby",
+            "certificate_hash": "ddbfaaf9e84ae2059bf6cd4aa0d068952cc0c444"
+          }
+        },
+        {
+          "client_id": "253476195503-pk3lcm4gf46bbr1oga71bppj4bhdfjnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDPZiRgxdu26voJ6fq8aNynCz6qA4TqPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253476195503-9qc6hpndeqvcsuc5o3ffa4c9b17lsb0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
